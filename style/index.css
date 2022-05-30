@@ -1,0 +1,21 @@
+#navbar{
+   display: flex; 
+   border: 1px solid black;
+   justify-content: right;
+}
+#navbar>div{
+    padding: 20px;
+}
+#menu{
+
+    display: grid;
+    grid-template-columns: repeat(4.1fr);
+    grid-template-rows: auto;
+    gap: 20px;
+    margin-top: 20px;
+
+}
+#image{
+    display: grid;
+}
+
